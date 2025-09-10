@@ -93,11 +93,11 @@
 
 @layer components {
   .metric-card {
-    @apply bg-gradient-to-br from-card via-card to-accent/20 border border-border/50 shadow-card;
+    @apply bg-gradient-to-br from-card via-card to-accent/20 border border-border/50 shadow-lg;
   }
   
   .govt-card {
-    @apply bg-card border border-border shadow-govt rounded-lg;
+    @apply bg-card border border-border shadow-lg rounded-lg;
   }
   
   .status-badge-success {
